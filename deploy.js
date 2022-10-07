@@ -2,7 +2,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require("web3");
 const {interface, bytecode} = require("./compile");
 
-const provider = new HDWalletProvider("under opera about entry remove office pride blossom pair school rabbit fruit",
+const provider = new HDWalletProvider("seed here ;)",
 "https://goerli.infura.io/v3/57affca6ff5841759b55794cf23c8a8c");
 
 const web3 = new Web3(provider);
